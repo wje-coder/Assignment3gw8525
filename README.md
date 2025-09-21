@@ -1,6 +1,6 @@
 # Assignment3gw8525
 
-The prject helps connect Rect (Vite) to a ode and Express backend to connect to MySql database. it will be able to display results from ten select quies each joinin at least 2 tables using at least 2 conditions. 
+The project helps connect Rect (Vite) to a ode and Express backend to connect to MySql database. it will be able to display results from ten select quies each joining at least 2 tables using at least 2 conditions. 
 ##Project Structure
 reactmysql/
 ├─ backend/
@@ -51,7 +51,9 @@ port: 3306,
 user: "root",
 password: "",   // or your password
 database: "test"
+CORS  helps to ensure the app is in server.js
 
 Foreign key: Heps to ensure that student.id and courses.crscode are defined as Primary Key before creating transcript/teaches
-
+Backend uses mysql2 driver and express with endpoints to implement the 10 join quiries. 
+Frontend is able to deploy Vite dev server locally. 
 
